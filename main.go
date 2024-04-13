@@ -148,4 +148,33 @@ func decPopBack() {
 
 func main() {
 
+	stackRem()
+	stackAdd(10)
+	stackAdd(20)
+	printStruct()
+	stackRem()
+	printStruct()
+	stackRem()
+	printStruct()
+
+	queueRem()
+	queueAdd(10)
+	queueAdd(20)
+	printStruct()
+	queueRem()
+	printStruct()
+	queueRem()
+	printStruct()
+
+	decPopFront()
+	decPopBack()
+	decPushBack(20)
+	decPushFront(10)
+	decPushBack(30)
+	decPushFront(0)
+	printStruct()
+	decPopBack()
+	printStruct()
+	decPopFront()
+	printStruct()
 }
